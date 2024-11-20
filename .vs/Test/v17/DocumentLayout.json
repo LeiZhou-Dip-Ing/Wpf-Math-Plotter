@@ -1,0 +1,302 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\test\\functions\\plotmodelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\functions\\plotmodelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|c:\\users\\dip_i\\desktop\\\u627E\u5DE5\u4F5C\\test\\test\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\test\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\test\\services\\persistence\\filesettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\services\\persistence\\filesettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\test\\functions\\functionsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\functions\\functionsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\test\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\test\\services\\persistence\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\services\\persistence\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\test\\services\\export\\exportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\services\\export\\exportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\test\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\test\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\test\\services\\export\\iexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\services\\export\\iexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|c:\\users\\dip_i\\desktop\\\u627E\u5DE5\u4F5C\\test\\test\\commen\\enum\\functiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\commen\\enum\\functiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\test\\dialogs\\viewmodels\\exportdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\dialogs\\viewmodels\\exportdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\test\\commen\\viewmodels\\validationviewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\commen\\viewmodels\\validationviewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\test\\dialogs\\views\\exportdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\dialogs\\views\\exportdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\test\\commen\\resources\\validationtemplates.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\commen\\resources\\validationtemplates.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\test\\functions\\iplotmodelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F236245-440D-43B3-A4F3-B85A674A1D97}|Test\\Test.csproj|solutionrelative:test\\functions\\iplotmodelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\App.xaml",
+              "RelativeDocumentMoniker": "Test\\App.xaml",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\App.xaml",
+              "RelativeToolTip": "Test\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-20T17:12:58.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlotModelFactory.cs",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Functions\\PlotModelFactory.cs",
+              "RelativeDocumentMoniker": "Test\\Functions\\PlotModelFactory.cs",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Functions\\PlotModelFactory.cs",
+              "RelativeToolTip": "Test\\Functions\\PlotModelFactory.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T19:58:52.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISettingsService.cs",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Services\\Persistence\\ISettingsService.cs",
+              "RelativeDocumentMoniker": "Test\\Services\\Persistence\\ISettingsService.cs",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Services\\Persistence\\ISettingsService.cs",
+              "RelativeToolTip": "Test\\Services\\Persistence\\ISettingsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T16:40:57.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileSettingService.cs",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Services\\Persistence\\FileSettingService.cs",
+              "RelativeDocumentMoniker": "Test\\Services\\Persistence\\FileSettingService.cs",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Services\\Persistence\\FileSettingService.cs",
+              "RelativeToolTip": "Test\\Services\\Persistence\\FileSettingService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T16:28:25.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "Test\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "Test\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAIIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T16:44:41.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FunctionSettings.cs",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Functions\\FunctionSettings.cs",
+              "RelativeDocumentMoniker": "Test\\Functions\\FunctionSettings.cs",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Functions\\FunctionSettings.cs",
+              "RelativeToolTip": "Test\\Functions\\FunctionSettings.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAHMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:07:36.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Test\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Test\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-18T19:17:33.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExportService.cs",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Services\\Export\\ExportService.cs",
+              "RelativeDocumentMoniker": "Test\\Services\\Export\\ExportService.cs",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Services\\Export\\ExportService.cs",
+              "RelativeToolTip": "Test\\Services\\Export\\ExportService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T07:27:17.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Test\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\App.xaml.cs",
+              "RelativeToolTip": "Test\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T16:47:16.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\App.config",
+              "RelativeDocumentMoniker": "Test\\App.config",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\App.config",
+              "RelativeToolTip": "Test\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-18T20:07:09.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IExportService.cs",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Services\\Export\\IExportService.cs",
+              "RelativeDocumentMoniker": "Test\\Services\\Export\\IExportService.cs",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Services\\Export\\IExportService.cs",
+              "RelativeToolTip": "Test\\Services\\Export\\IExportService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T07:22:38.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FunctionType.cs",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Commen\\Enum\\FunctionType.cs",
+              "RelativeDocumentMoniker": "Test\\Commen\\Enum\\FunctionType.cs",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Commen\\Enum\\FunctionType.cs",
+              "RelativeToolTip": "Test\\Commen\\Enum\\FunctionType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T12:57:02.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExportDialogViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Dialogs\\ViewModels\\ExportDialogViewModel.cs",
+              "RelativeDocumentMoniker": "Test\\Dialogs\\ViewModels\\ExportDialogViewModel.cs",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Dialogs\\ViewModels\\ExportDialogViewModel.cs",
+              "RelativeToolTip": "Test\\Dialogs\\ViewModels\\ExportDialogViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T09:13:16.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExportDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Dialogs\\Views\\ExportDialog.xaml",
+              "RelativeDocumentMoniker": "Test\\Dialogs\\Views\\ExportDialog.xaml",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Dialogs\\Views\\ExportDialog.xaml",
+              "RelativeToolTip": "Test\\Dialogs\\Views\\ExportDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-19T08:49:51.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ValidationViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Commen\\ViewModels\\ValidationViewModelBase.cs",
+              "RelativeDocumentMoniker": "Test\\Commen\\ViewModels\\ValidationViewModelBase.cs",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Commen\\ViewModels\\ValidationViewModelBase.cs",
+              "RelativeToolTip": "Test\\Commen\\ViewModels\\ValidationViewModelBase.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAAE0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T13:28:08.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ValidationTemplates.xaml",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Commen\\Resources\\ValidationTemplates.xaml",
+              "RelativeDocumentMoniker": "Test\\Commen\\Resources\\ValidationTemplates.xaml",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Commen\\Resources\\ValidationTemplates.xaml",
+              "RelativeToolTip": "Test\\Commen\\Resources\\ValidationTemplates.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-20T17:05:40.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IPlotModelFactory.cs",
+              "DocumentMoniker": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Functions\\IPlotModelFactory.cs",
+              "RelativeDocumentMoniker": "Test\\Functions\\IPlotModelFactory.cs",
+              "ToolTip": "C:\\Users\\dip_i\\Desktop\\\u627E\u5DE5\u4F5C\\Test\\Test\\Functions\\IPlotModelFactory.cs",
+              "RelativeToolTip": "Test\\Functions\\IPlotModelFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T19:58:45.238Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

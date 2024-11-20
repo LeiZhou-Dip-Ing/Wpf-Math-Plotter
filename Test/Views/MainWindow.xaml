@@ -1,0 +1,127 @@
+﻿<Window x:Class="Test.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test.ViewModels"
+        xmlns:prism="http://prismlibrary.com/" xmlns:prism1="http://oxyplot.org/wpf"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        mc:Ignorable="d"
+        Title="SIMPLE GRAPH CALCULATOR PLOTTER" Height="450" Width="800">
+   
+    <Grid>
+        <!-- Define column widths for layout -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <!-- Width for parameter settings -->
+            <ColumnDefinition Width="*"/>
+            <!-- Width for plot view -->
+        </Grid.ColumnDefinitions>
+
+        <!-- GroupBox for Function Settings on the left side -->
+        <GroupBox Grid.Column="0" 
+                  Margin="10" 
+                  VerticalAlignment="Stretch">
+            <GroupBox.Header>
+                <TextBlock Text="Function Settings" 
+                           FontWeight="Bold"/>
+            </GroupBox.Header>
+            <StackPanel Orientation="Vertical" Margin="10">
+                <!-- Function Type ComboBox -->
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                    <TextBlock Text="Function Type:" VerticalAlignment="Center" Width="100"/>
+                    <ComboBox ItemsSource="{Binding FunctionTypes}"
+                              SelectedItem="{Binding FunctionSettings.FunctionType}"
+                              Width="80"/>
+                </StackPanel>
+
+                <!-- Input fields for FunctionSettings -->
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                        <TextBlock Text="Amplitude:" VerticalAlignment="Center" Width="80"/>
+                        <TextBox Text="{Binding Amplitude, 
+                                                Mode=TwoWay,
+                                                UpdateSourceTrigger=PropertyChanged,
+                                                ValidatesOnNotifyDataErrors=True}"
+                                                Width="100"
+                                                Validation.ErrorTemplate="{StaticResource ValidationErrorTemplate}"/>
+
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                        <TextBlock Text="Frequency:" VerticalAlignment="Center" Width="80"/>
+                        <TextBox Text="{Binding Frequency, 
+                                                UpdateSourceTrigger=PropertyChanged,
+                                                ValidatesOnDataErrors=True}"
+                                                Width="100"
+                                                Validation.ErrorTemplate="{StaticResource ValidationErrorTemplate}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                        <TextBlock Text="Phase:" VerticalAlignment="Center" Width="80"/>
+                        <TextBox Text="{Binding FunctionSettings.Phase, UpdateSourceTrigger=PropertyChanged}"
+                                 Width="100"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                        <TextBlock Text="Shift:" VerticalAlignment="Center" Width="80"/>
+                        <TextBox Text="{Binding Shift, 
+                                                UpdateSourceTrigger=PropertyChanged,
+                                                ValidatesOnNotifyDataErrors=True}"
+                                                Width="100"
+                                                Validation.ErrorTemplate="{StaticResource ValidationErrorTemplate}"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                        <TextBlock Text="Step:" VerticalAlignment="Center" Width="80"/>
+                        <TextBox Text="{Binding Step, 
+                                        UpdateSourceTrigger=PropertyChanged,
+                                        ValidatesOnNotifyDataErrors=True}"
+                                        Width="100" 
+                                        Validation.ErrorTemplate="{StaticResource ValidationErrorTemplate}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                        <TextBlock Text="X Min:" VerticalAlignment="Center" Width="80"/>
+                        <TextBox Text="{Binding XMin, 
+                                                UpdateSourceTrigger=PropertyChanged,
+                                                ValidatesOnNotifyDataErrors=True}"
+                                                Width="100"
+                                                Validation.ErrorTemplate="{StaticResource ValidationErrorTemplate}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                        <TextBlock Text="X Max:" VerticalAlignment="Center" Width="80"/>
+                        <TextBox Text="{Binding XMax, 
+                                                UpdateSourceTrigger=PropertyChanged,
+                                                ValidatesOnNotifyDataErrors=True}"
+                                                Width="100"
+                                                Validation.ErrorTemplate="{StaticResource ValidationErrorTemplate}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                        <TextBlock Text="Y Min:" VerticalAlignment="Center" Width="80"/>
+                        <TextBox Text="{Binding YMin, 
+                                                UpdateSourceTrigger=PropertyChanged,
+                                                ValidatesOnNotifyDataErrors=True}"
+                                                Width="100"
+                                                Validation.ErrorTemplate="{StaticResource ValidationErrorTemplate}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                        <TextBlock Text="Y Max:" VerticalAlignment="Center" Width="80"/>
+                        <TextBox Text="{Binding YMax, 
+                                                UpdateSourceTrigger=PropertyChanged,
+                                                ValidatesOnNotifyDataErrors=True}"
+                                                Width="100"
+                                                Validation.ErrorTemplate="{StaticResource ValidationErrorTemplate}"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,80,0,5">
+                        <Button Content="Reset" Command="{Binding ResetSettingParamsCommand}" Width="50" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top"  Margin="0,0,15,0"/>
+                        <Button Content="Export SVG Image" Command="{Binding ExportCommand}" Width="120" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top" />
+                        
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Trigonometric curve" FontWeight="Bold" Grid.Column="1" Grid.Row="0" Margin="10">
+            <prism1:PlotView Model="{Binding SelectedPlotModel}" x:Name="Plot" Grid.Column="1" Margin="10" VerticalAlignment="Stretch"/>
+        </GroupBox>
+        
+    </Grid>
+</Window>

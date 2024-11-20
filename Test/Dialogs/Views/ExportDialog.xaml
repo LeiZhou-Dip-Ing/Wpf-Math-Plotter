@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="Test.Dialogs.Views.ExportDialog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Test.Dialogs.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="250" d:DesignWidth="600">
+
+    <Grid>
+        <!-- Define the grid structure with two columns and two rows -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Left Column: Settings and Controls -->
+        <Grid Grid.Column="0" Grid.Row="0">
+            <GroupBox Margin="10">
+                <GroupBox.Header>
+                    <TextBlock Text="Settings"
+                               FontWeight="Bold"/>
+                </GroupBox.Header>
+                <StackPanel Orientation="Vertical" Margin="10">
+                    <!-- Save Path -->
+                   
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                        <TextBox Text="{Binding SavePath, UpdateSourceTrigger=PropertyChanged}" 
+                                 Width="300" Margin="0,0,5,0"  IsReadOnly="True"/>
+                        <Button Content="Browse" Command="{Binding BrowseCommand}" Width="75"/>
+                    </StackPanel>
+
+                    <!-- Width and Height -->
+                    <StackPanel Orientation="Horizontal" Margin="0,10,0,5">
+                        <TextBlock Text="Width:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                        <TextBox Text="{Binding ImageWidth, 
+                                                UpdateSourceTrigger=PropertyChanged,
+                                                ValidatesOnNotifyDataErrors=True}" 
+                                                Width="100" Margin="0,0,20,0"                                          
+                                                Validation.ErrorTemplate="{StaticResource ValidationErrorTemplate}"/>
+
+                        <TextBlock Text="Height:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                        <TextBox Text="{Binding ImageHeight, 
+                                                UpdateSourceTrigger=PropertyChanged,
+                                                ValidatesOnNotifyDataErrors=True}" 
+                                                Width="90"
+                                                Validation.ErrorTemplate="{StaticResource ValidationErrorTemplate}"/>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+
+            <!-- Buttons: Confirm and Cancel -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10">
+                <Button Command="{Binding ConfirmCommand}" Content="Confirm" Margin="0,0,10,0"/>
+                <Button Command="{Binding CancelCommand}" Content="Cancel"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Right Column: Image Display -->
+        <GroupBox Header="SVG Preview" FontWeight="Bold" Grid.Column="1" Grid.Row="0" Margin="10">
+            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="10">
+                <!-- Image with dynamic width and height -->
+                <Image Source="{Binding SvgPreviewImage}" 
+                       Width="{Binding ImageWidth, UpdateSourceTrigger=PropertyChanged}" 
+                       Height="{Binding ImageHeight, UpdateSourceTrigger=PropertyChanged}" 
+                       Stretch="Uniform"/>
+            </ScrollViewer>
+        </GroupBox>
+    </Grid>
+</UserControl>
